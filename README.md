@@ -16,13 +16,14 @@ This code is based on the paper: [Chinese Open Relation Extraction and Knowledge
 
 - [pyltp](https://github.com/HIT-SCIR/pyltp)
 
+
+# 运行
+
 ```relation_extraction.py```： 包含七种不同的语法分析，能够根据句子来进行匹配，再依此生成关系三元组。
 
 ```utils.py```: 包含从文件中读取数据以及数据预处理的函数。
 
 ```test.py```: 运行示例。
-
-# 运行
 
 - 读取键盘输入并进行关系抽取：
 
